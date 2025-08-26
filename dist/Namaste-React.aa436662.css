@@ -1,0 +1,58 @@
+.header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-items li {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.res-card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  width: 200px;
+  height: 250px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #007bff;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 3px;
+  display: flex;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+  height: 35%;
+  padding: 2px;
+}
+/*# sourceMappingURL=Namaste-React.aa436662.css.map */
