@@ -1,17 +1,32 @@
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .header {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6;
+  background: #fff;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 16px 32px;
+  display: flex;
+  box-shadow: 0 2px 8px #0000000d;
+}
+
+.logo-container {
+  align-items: center;
   display: flex;
 }
 
 .logo {
-  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
 }
 
 .nav-items ul {
+  gap: 24px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -20,39 +35,54 @@
 
 .nav-items li {
   cursor: pointer;
-  margin: 0 15px;
+  color: #333;
+  font-weight: 500;
+  transition: color .2s;
 }
 
-.res-card {
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  width: 200px;
-  height: 250px;
-  margin: 2px;
-  padding: 2px;
+.nav-items li:hover {
+  color: #007bff;
 }
 
-.res-card:hover {
-  cursor: pointer;
-  border: 1px solid #007bff;
-}
-
-.res-container {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px;
-  padding: 3px;
-  display: flex;
+.body {
+  padding: 32px;
 }
 
 .search {
-  padding: 10px;
+  color: #888;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.res-container {
+  flex-flow: wrap;
+  gap: 24px;
+  display: flex;
+}
+
+.res-card {
+  background: #f0f0f0;
+  border-radius: 12px;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 260px;
+  padding: 16px;
+  display: flex;
+  box-shadow: 0 2px 8px #0000000a;
 }
 
 .res-logo {
+  object-fit: cover;
+  border-radius: 8px;
   width: 100%;
-  height: 35%;
-  padding: 2px;
+  height: 150px;
+  margin-bottom: 12px;
+}
+
+.res-card h4 {
+  color: #222;
+  margin: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=Namaste-React.aa436662.css.map */
